@@ -1,7 +1,7 @@
 ---
 title: Square Zero
 layout: post
-date: '2018-01-01 10:22:23 +0000'
+date: '1995-01-01 10:22:23 +0000'
 background: https://2.bp.blogspot.com/-HPHT-GfZRQk/WkowaAijASI/AAAAAAAAEP4/aIBGmSHrttoGhTN6X6xhNH-vEXrQu8NEgCLcBGAs/s800/k12.jpg
 description: null
 tags:

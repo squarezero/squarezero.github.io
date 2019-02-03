@@ -30,7 +30,7 @@ layout: default
         {{ content }}
 
         <!-- Home Post List -->
-        {% for post in site.posts limit : 5 %}
+        {% for post in site.posts limit : 10 %}
 
           <article class="post-preview">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
