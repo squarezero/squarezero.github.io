@@ -6,6 +6,7 @@ header.masthead {
   background-color: $gray-600;
   background-attachment: scroll;
   position: relative;
+  height: 300px;
   @include background-cover;
   .overlay {
     position: absolute;
@@ -19,11 +20,16 @@ header.masthead {
   .page-heading,
   .post-heading,
   .site-heading {
-    padding: 200px 0 150px;
+    padding: 100px 0 150px;
     color: white;
     @media only screen and (min-width: 768px) {
-      padding: 200px 0;
+      padding: 100px 0;
     }
+  }
+  .page-heading{
+    > h1{
+      font-family: 'Unica One';
+    }  
   }
   .page-heading,
   .site-heading {
@@ -38,7 +44,7 @@ header.masthead {
       line-height: 1.1;
       display: block;
       margin: 10px 0 0;
-      @include sans-serif-font;
+      font-family: 'Dosis', sans-serif;
     }
     @media only screen and (min-width: 768px) {
       h1 {

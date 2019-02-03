@@ -1,8 +1,7 @@
 // Styling for the navbar
 #mainNav {
   position: absolute;
-  border-bottom: 1px solid $gray-200;
-  background-color: white;
+  background-color: black;
   @include sans-serif-font;
   .navbar-brand {
     font-weight: 800;
@@ -18,9 +17,11 @@
   .navbar-nav {
     > li.nav-item {
       > a {
+        font-family: 'Source Code Pro';
+        color: $gray-600;
         font-size: 12px;
-        font-weight: 800;
-        letter-spacing: 1px;
+        font-weight: normal;
+        letter-spacing: 2px;
         text-transform: uppercase;
       }
     }
@@ -68,7 +69,7 @@
       -moz-transition: -moz-transform 0.2s;
       transition: transform 0.2s;
       border-bottom: 1px solid darken($white, .05);
-      background-color: fade-out($white, .1);
+      background-color: black;
       .navbar-brand {
         color: $gray-900;
         &:focus,
@@ -79,10 +80,10 @@
       .navbar-nav {
         > li.nav-item {
           > a {
-            color: $gray-900;
+            color: rgba(255,255,255,.6);
             &:focus,
             &:hover {
-              color: $primary;
+              color: white;
             }
           }
         }

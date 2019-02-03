@@ -1,42 +1,87 @@
 // Styling for the post page
+@media only screen and (max-width: 767px){
+  .post-preview{
+    text-align: center !important;
+  }
+}
 .post-preview {
   > a {
-    color: $gray-900;
+    color: white;
     &:focus,
     &:hover {
       text-decoration: none;
-      color: $primary;
     }
-    > .post-title {
-      font-size: 30px;
-      margin-top: 30px;
-      margin-bottom: 10px;
-    }
-    > .post-subtitle {
-      font-weight: 300;
-      margin: 0 0 10px;
-    }
-  }
-  > .post-meta {
-    font-size: 18px;
-    font-style: italic;
-    margin-top: 0;
-    color: $gray-600;
-    > a {
-      text-decoration: none;
-      color: $gray-900;
-      &:focus,
-      &:hover {
-        text-decoration: underline;
-        color: $primary;
+    @media only screen and (max-width: 767px){
+      >.post-container{
+        display: block !important;
+        text-align: center;
       }
     }
+    > .post-container{
+      display: flex;
+      > .post-img-container{
+        object-fit: cover;
+        > .post-img{
+          max-width: 400px;
+          max-height: 400px;
+        }
+      }
+      > .post-text{
+        padding: 0 2em;
+        > .post-text-header{
+          display: flex;
+          justify-content: center;
+          > .post-title{
+
+          }
+          > .post-meta {
+            display: none;
+            font-family: 'Source Code Pro';
+            font-size: 14px;
+            margin: 10px 0 0;
+            color: $gray-900;
+            > a {
+              text-decoration: none;
+              color: $gray-900;
+            }
+          }
+        }
+        > .post-title {
+          font-size: 30px;
+          margin: 0;
+        }
+        > .post-subtitle {
+          color: rgba(255,255,255,.6);
+          font-weight: 300;
+          margin: 10px 0 10px;
+          line-height: 1.7;
+          font-size: 1em;
+        }
+      }
+    }
+
   }
+
   @media only screen and (min-width: 768px) {
     > a {
-      > .post-title {
-        font-size: 36px;
+      > .post-container{
+        >.post-text{
+          >.post-text-header{
+            justify-content: space-between;
+            > .post-title {
+              font-size: 25px;
+              border: 2px solid white;
+              padding: 10px 20px;
+              margin-right: 50px;
+            }
+            > .post-meta{
+              display: inline;
+            }
+          }
+        }
+
       }
+
     }
   }
 }
