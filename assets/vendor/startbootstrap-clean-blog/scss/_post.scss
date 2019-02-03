@@ -20,10 +20,12 @@
     > .post-container{
       display: flex;
       > .post-img-container{
-        object-fit: cover;
         > .post-img{
-          max-width: 400px;
+          max-width: 90vw;
           max-height: 400px;
+          width: 90vw;
+          height: 225px;
+          object-fit: cover;
         }
       }
       > .post-text{
@@ -65,6 +67,15 @@
   @media only screen and (min-width: 768px) {
     > a {
       > .post-container{
+        > .post-img-container{
+          > .post-img{
+            max-width: 400px;
+            max-height: 400px;
+            width: 400px;
+            height: 225px;
+            object-fit: cover;
+          }
+        }
         >.post-text{
           >.post-text-header{
             justify-content: space-between;
