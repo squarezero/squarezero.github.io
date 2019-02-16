@@ -28,8 +28,11 @@ header.masthead {
   }
   .page-heading{
     > h1{
-      font-family: 'Unica One';
-    }  
+      font-family: 'Calibri';
+      letter-spacing: -4px;
+      line-height: 0.8;
+      font-weight: normal;
+    }
   }
   .page-heading,
   .site-heading {
@@ -48,7 +51,7 @@ header.masthead {
     }
     @media only screen and (min-width: 768px) {
       h1 {
-        font-size: 80px;
+        font-size: 54px;
       }
     }
   }
