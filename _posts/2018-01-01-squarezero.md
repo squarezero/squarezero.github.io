@@ -2,13 +2,11 @@
 title: Square Zero
 layout: post
 date: '1995-01-01 10:22:23 +0000'
-background: https://2.bp.blogspot.com/-HPHT-GfZRQk/WkowaAijASI/AAAAAAAAEP4/aIBGmSHrttoGhTN6X6xhNH-vEXrQu8NEgCLcBGAs/s800/k12.jpg
-description: null
+background: https://cdna.artstation.com/p/assets/images/images/004/560/916/large/dominik-mayer-redmoon.jpg
 tags:
 - Discourse
 - NonFiction
-twitter_text: null
-introduction: What is this?
+subtitle: What is this?
 ---
 
 # Looks like I'm doing this.
