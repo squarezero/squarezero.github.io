@@ -30,6 +30,7 @@
       }
       > .post-text{
         padding: 0 2em;
+        width: 100%;
         > .post-text-header{
           display: flex;
           justify-content: center;
@@ -38,7 +39,7 @@
           }
           > .post-meta {
             display: none;
-            font-family: 'Source Code Pro';
+            font-family: 'Consolas';
             font-size: 14px;
             margin: 10px 0 0;
             color: $gray-900;
