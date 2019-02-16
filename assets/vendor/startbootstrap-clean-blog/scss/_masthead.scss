@@ -28,7 +28,7 @@ header.masthead {
   }
   .page-heading{
     > h1{
-      font-family: 'Calibri';
+      font-family: 'Calibri Light';
       letter-spacing: -4px;
       line-height: 0.8;
       font-weight: normal;
@@ -42,12 +42,12 @@ header.masthead {
       margin-top: 0;
     }
     .subheading {
-      font-size: 24px;
+      font-size: 18px;
       font-weight: 300;
-      line-height: 1.1;
+      line-height: 2;
       display: block;
       margin: 10px 0 0;
-      font-family: 'Dosis', sans-serif;
+      font-family: 'Segoe Print', sans-serif;
     }
     @media only screen and (min-width: 768px) {
       h1 {
