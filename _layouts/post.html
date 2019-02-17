@@ -1,7 +1,25 @@
 ---
 layout: default
 ---
+<script>
+  function copyToClipboard(){
+    //console.log(`Copied ${window.location.href}`);
+    var textArea = document.createElement("textarea");
+    textArea.value = window.location.href;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand("Copy");
+    textArea.remove();
 
+    var tooltip = document.getElementById("tooltiptext");
+    tooltip.innerHTML = "Link copied";
+  }
+
+  function outFunc() {
+    var tooltip = document.getElementById("tooltiptext");
+    tooltip.innerHTML = "Copy Link";
+  }
+</script>
 <!-- Page Header -->
 {% if page.background %}
 <header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '/', '/' }}')">
@@ -26,12 +44,14 @@ layout: default
 
 <div class="container">
   <div class="row">
-    <div class="col-lg-10 col-md-10 mx-auto">
+    <div class="col-lg-10 col-md-10 mx-auto post-body">
 
       {{ content }}
-
+      <div class="tooltipcontainer">
+        <img onclick="copyToClipboard()" onmouseout="outFunc()" class="share-icon" src="/img/share-icon.png" alt="Share Icon">
+        <span id="tooltiptext" class="tooltiptext">Copy Link</span>
+      </div>
       <hr>
-
       <div class="clearfix">
 
         {% if page.previous.url %}
