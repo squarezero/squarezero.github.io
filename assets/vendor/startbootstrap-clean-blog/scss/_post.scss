@@ -97,3 +97,61 @@
     }
   }
 }
+
+.post-body{
+    text-align: justify;
+}
+
+h1[id]{
+  display: inline-block;
+  border-bottom: 5px solid red;
+  line-height: 0.8;
+  color: azure;
+}
+
+em{
+  color: azure;
+  padding: 0 10px;
+}
+
+blockquote>p{
+  color: azure;
+  &::before{
+    content: "|";
+    color: red;
+    font-weight: bold;
+    font-size: 2em;
+    font-style: normal;
+    padding-right: 10px;
+  }
+}
+
+.share-icon{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.tooltipcontainer {
+  position: relative;
+  display: inline-block;
+}
+.tooltipcontainer .tooltiptext {
+  visibility: hidden;
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 2px 10px;
+  position: absolute;
+  z-index: 2;
+  margin-left: 20px;
+  margin-top: 10px;
+  opacity: 0;
+  font-size: 15px;
+  white-space: pre;
+}
+
+.tooltipcontainer:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
