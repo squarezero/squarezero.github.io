@@ -109,6 +109,12 @@ h1[id]{
   color: azure;
 }
 
+@media (max-width: 768px){
+  h1[id]{
+    font-size: 1.7em;
+    text-align: left;
+  }
+}
 em{
   color: azure;
   padding: 0 10px;
@@ -127,8 +133,8 @@ blockquote>p{
 }
 
 .share-icon{
-  width: 20px;
-  height: 20px;
+  width: 35px;
+  height: 35px;
   cursor: pointer;
 }
 .tooltipcontainer {
