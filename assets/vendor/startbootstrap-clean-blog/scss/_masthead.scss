@@ -28,10 +28,10 @@ header.masthead {
   }
   .page-heading{
     > h1{
-      font-family: 'Calibri Light';
+      font-family: 'Josefin Sans';
       letter-spacing: -4px;
       line-height: 0.8;
-      font-weight: normal;
+      font-weight: 300;
     }
   }
   .page-heading,
@@ -47,7 +47,7 @@ header.masthead {
       line-height: 2;
       display: block;
       margin: 10px 0 0;
-      font-family: 'Segoe Print', sans-serif;
+      font-family: 'Nothing You Could Do', cursive;
     }
     @media only screen and (min-width: 768px) {
       h1 {
@@ -58,6 +58,10 @@ header.masthead {
   .post-heading {
     h1 {
       font-size: 35px;
+      font-family: 'Josefin Sans';
+      letter-spacing: -4px;
+      line-height: 0.8;
+      font-weight: 300;
     }
     .meta,
     .subheading {
@@ -66,9 +70,10 @@ header.masthead {
     }
     .subheading {
       font-size: 24px;
-      font-weight: 600;
+      font-weight: 300;
       margin: 10px 0 30px;
       @include sans-serif-font;
+      font-family: 'Nothing You Could Do', cursive;
     }
     .meta {
       font-size: 20px;
@@ -84,7 +89,7 @@ header.masthead {
         font-size: 55px;
       }
       .subheading {
-        font-size: 30px;
+        font-size: 20px;
       }
     }
   }

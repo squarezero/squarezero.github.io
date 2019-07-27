@@ -2,6 +2,7 @@
 title: Lightning
 background: https://cdnb.artstation.com/p/assets/images/images/005/238/073/large/nick-menez-high-01.jpg
 layout: post
+subtitle: Something in the hills
 ---
 
 # Game
