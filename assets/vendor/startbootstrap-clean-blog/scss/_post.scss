@@ -15,6 +15,9 @@
       >.post-container{
         display: block !important;
         text-align: center;
+        >.post-text {
+          padding-top: 30px !important;
+        }
       }
     }
     > .post-container{

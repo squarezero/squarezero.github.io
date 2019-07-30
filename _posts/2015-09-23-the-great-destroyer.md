@@ -3,6 +3,7 @@ title: The Great Destroyer
 layout: post
 background: https://cdna.artstation.com/p/assets/images/images/002/187/704/large/teun-van-der-zalm-ncu001-13d.jpg
 subtitle: Time to meet the creator.
+artist: artstation.com/teunvanderzalm
 ---
 
 He was staring into absolute darkness.Nothing else, just plain void. There was no sound, no smell, no sight, no sense of  touch either. He felt weightless, spaceless. But behind him was something he didn't want to see. He knew he had finally reached his 'destiny'. And he was scared to see what the creator looked like.

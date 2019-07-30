@@ -3,6 +3,7 @@ title: Box of Issues
 layout: post
 background: https://cdna.artstation.com/p/assets/images/images/008/555/002/large/antoine-collignon-bigger.jpg
 subtitle: A long time coming.
+artist: artstation.com/antoinecollignon
 ---
 
 I have issues.
@@ -34,6 +35,6 @@ I’ve theorized that writing/recording what I’m feeling gives it a marker. Th
 <br/>Let’s do this right, let’s do it now.
 <br/>Whatever brings me down is going straight to the archives, and I will look at it in all its glory, analyzing me from the outside.
 <br/>This is me you’re looking at; I have put myself out here, and I want you to look at me, in the most sordid form.
-<br/>It’s honestly feels naked, but that’s exactly what I wanna do.
+<br/>It honestly feels naked, but that’s exactly what I wanna do.
 
 Cheers.
