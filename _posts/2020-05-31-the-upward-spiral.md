@@ -1,5 +1,5 @@
 ---
-title: The Outward Spiral
+title: The Upward Spiral
 background: https://cdna.artstation.com/p/assets/images/images/011/422/852/large/vadim-sadovski-z42.jpg
 layout: post
 artist: artstation.com/vadimsadovski
