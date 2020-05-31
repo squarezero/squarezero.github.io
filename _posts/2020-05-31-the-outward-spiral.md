@@ -3,7 +3,7 @@ title: The Outward Spiral
 background: https://cdna.artstation.com/p/assets/images/images/011/422/852/large/vadim-sadovski-z42.jpg
 layout: post
 artist: artstation.com/vadimsadovski
-subtitle: Journey cross realms
+subtitle: Journey across realms
 ---
 
 He unleashes wrath and
