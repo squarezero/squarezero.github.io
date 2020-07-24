@@ -1,0 +1,96 @@
+.fitContent {
+    @media (min-width: 768px) {
+        width: fit-content;
+    }
+}
+
+.articleMeta {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 300px;
+    @media (max-width: 767px) {
+        right: 0;
+        max-width: 80%;
+        top: -150px;
+    }
+    .articleDate {
+        color: red !important;
+    }
+    .metaSubtitle {
+        font-family: 'Alegreya Sans', sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 4.8px;
+        text-align: right;
+        white-space: initial;
+        font-size: 25px;
+        margin-top: 25px;
+        margin-right: -5px;
+        @media (max-width: 767px) {
+            font-size: 16px;
+        }
+    }
+}
+
+
+.tooltipcontainer {
+    position: relative;
+    display: inline-block;
+    margin-top: 25px;
+    cursor: pointer;
+    @media (max-width: 767px) {
+        margin-top: 15px;
+        img {
+            width: 28px;
+        }
+    }
+  }
+  .tooltipcontainer .tooltiptext {
+    visibility: hidden;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 2px 10px;
+    position: absolute;
+    z-index: 2;
+    margin-left: -70px;
+    margin-top: 50px;
+    opacity: 0;
+    font-size: 15px;
+    white-space: pre;
+  }
+  
+  .tooltipcontainer:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .backButton {
+    position: absolute;
+    top: -10px;
+    left: -150px;
+    padding: 10px;
+    background-color: black;
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 0px 0px 11px -2px #3f3f3f;
+    }
+    .backIcon {
+        width: 10px;
+        margin: 10px 15px;
+    }
+    @media (max-width: 767px) {
+        top: -117px;
+        left: -11px;
+    }
+  }
+  

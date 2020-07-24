@@ -1,0 +1,121 @@
+@import './header.scss';
+@import './home.scss';
+@import './post.scss';
+
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #ffffffc2;
+}
+
+#opacityContainer {
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.hidden {
+    opacity: 0 !important;
+}
+
+.blurUp {
+    //filter: blur(5px);
+    //transform: scale(1.20);
+}
+
+
+a {
+    color: red;
+    box-shadow: none;
+}
+
+h1, h3 {
+    color: red;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+h1 {
+    font-family: 'Alegreya sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+    font-size: 30px;
+    @media (max-width: 767px) {
+        font-size: 22px;       
+    }
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 45px;
+    letter-spacing: 0px;
+    @media (max-width: 767px) {
+        font-size: 30px;
+    }
+}
+
+.date {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #5E5E5E;
+    text-transform: uppercase;
+    @media (max-width: 767px) {
+        font-size: 12px;
+    }
+}
+
+.highlightDate {
+    color: red;
+}
+
+.backgroundImage {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70vh;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out, filter 1s ease-in-out, transform 2s ease-in-out;
+    >img {
+        object-fit: cover;
+        width: 100%;
+        @media (max-width: 767px) {
+            position: absolute;
+            bottom: 0;
+            margin: 0;
+            height: 50vh;
+        }
+    }
+    .backgroundOverlay {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, black, black, #000000ad, #00000069);
+        @media (max-width: 767px) {
+            z-index: 3;
+            // background: linear-gradient(180deg, black, black, #000000cf, #000000ba);
+        }
+    }
+}
+
+.article {
+    position: relative;
+    white-space: break-spaces;
+    background-color: inherit;
+    font-size: 24px;
+    @media (max-width: 767px) {
+        font-size: 20px;
+        margin-top: 150px;
+    }
+}

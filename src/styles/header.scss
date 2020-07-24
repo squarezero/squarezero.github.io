@@ -1,0 +1,101 @@
+
+.pageHeader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    z-index: 1000;
+    background-color: black;
+    @media (max-width: 767px) {
+        h1 {
+            text-align: right;
+            max-width: 85%;
+            float: right;
+            margin-right: 15px;
+        }
+    }
+}
+
+.hamburger {
+    width: fit-content;
+    // @media (max-width: 767px) {
+    //     pointer-events: none;
+    // }
+    .logo {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+        margin-bottom: 0;
+        transform: rotate(90deg);
+        transition: transform 0.4s ease-in-out;
+        &:hover {
+            transform: rotate(-90deg);
+        }
+        @media (max-width: 767px) {
+            width: 70px;
+            height: 70px;
+        }
+    }
+}
+
+.sidebarContainer {
+    position: fixed;
+    z-index: 999;
+    @media (max-width: 767px) {
+        height: 75px;
+    }
+}
+
+.sidebarContainer{
+    @media (min-width: 769px) {
+        &:hover .categories {
+            transform: rotate(0deg);
+            margin-left: 20px;
+        }
+    }
+    @media (max-width: 768px) {
+        &:hover .categories {
+            transform: rotate(0deg);
+            margin-left: 20px;
+        }
+    }
+}
+
+.categories {
+    transform: rotate(90deg);
+    transform-origin: top;
+    margin-left: -100px;
+    transition: margin 0.3s ease-in-out, transform 0.3s ease-in-out;
+    .category {
+        position: relative;
+        color: black;
+        background-color: red;
+        font-family: 'Poppins';
+        font-weight: 800;
+        letter-spacing: 5.6px;
+        width: fit-content;
+        padding: 3px 8px 3px 10px;
+        margin: 15px 0;
+        cursor: pointer;
+        text-transform: uppercase;
+        .overlay {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 0;
+            background-color: #FFC700;
+            transition: width 0.2s ease-in-out;
+        }
+        .text {
+            z-index: 1000;
+            position: relative;
+        }
+        &:hover .overlay {
+            width: 100%;
+        }
+    }
+}
