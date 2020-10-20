@@ -34,6 +34,11 @@
             font-size: 16px;
         }
     }
+    .coverArtist {
+        color: #ffffff63;
+        font-size: 12px;
+        text-decoration: underline;
+    }
 }
 
 
@@ -81,9 +86,9 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    &:hover {
-        box-shadow: 0px 0px 11px -2px #3f3f3f;
-    }
+    // &:hover {
+    //     box-shadow: 0px 0px 11px -2px #3f3f3f;
+    // }
     .backIcon {
         width: 10px;
         margin: 10px 15px;

@@ -36,11 +36,11 @@ const Layout = (props) => {
   }
 
   const scrollFunction = () => {
-    console.log(`scrolled`);
     const el = document.querySelector('.backgroundImage');
     if(!el)
       return;
-    el.classList.add('blurUp');
+    if(!el.classList.contains('blurUp'))
+      el.classList.add('blurUp');
     setTimeout(()=>el.classList.remove('blurUp'), 300);
   }
 

@@ -55,7 +55,7 @@ const BlogIndex = ({ data, location }) => {
       updateActiveCategory={updateActiveCategory}
       finishCardInfo={finishCardInfo}
     >
-      <SEO title="All posts" />
+      <SEO title="Home" />
       {
         !posts.length &&
         <div className="noContent">

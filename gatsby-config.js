@@ -11,7 +11,6 @@ module.exports = {
       email: `sssurajsuraj@gmail.com`,
     },
   },
-  pathPrefix: "/",
   plugins: [
     `gatsby-plugin-sass`,
     {

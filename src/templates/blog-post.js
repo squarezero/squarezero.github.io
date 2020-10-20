@@ -11,7 +11,6 @@ const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark;
 
   function copyToClipboard(){
-    //console.log(`Copied ${window.location.href}`);
     var textArea = document.createElement("textarea");
     textArea.value = window.location.href;
     document.body.appendChild(textArea);
@@ -31,7 +30,6 @@ const BlogPostTemplate = ({ data, location }) => {
   function goHome() {
     window.history.back();
   }
-
 
   return (
     <Layout
@@ -73,6 +71,7 @@ const BlogPostTemplate = ({ data, location }) => {
           <h3 className="metaSubtitle">
             {post.frontmatter.subtitle || post.frontmatter.category}
           </h3>
+          <a className="coverArtist" href={post.frontmatter.background_artist} target="_blank">cover image artist</a>
           <div className="tooltipcontainer">
             <img
               onClick={copyToClipboard}
@@ -107,6 +106,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMDD, YYYY")
         subtitle
         background
+        background_artist
         category
       }
     }
