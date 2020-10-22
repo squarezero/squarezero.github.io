@@ -1,6 +1,8 @@
 ---
 title: Transcendence
 category: poetry
+background: https://cdna.artstation.com/p/assets/images/images/017/424/834/large/alex-rommel-fishy-sunset-1250.jpg
+background_artist: https://www.artstation.com/aerroscape
 date: 2020-07-11
 ---
 
