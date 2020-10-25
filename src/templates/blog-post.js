@@ -71,7 +71,7 @@ const BlogPostTemplate = ({ data, location }) => {
           <h3 className="metaSubtitle">
             {post.frontmatter.subtitle || post.frontmatter.category}
           </h3>
-          <a className="coverArtist" href={post.frontmatter.background_artist} target="_blank">cover image artist</a>
+          {post.frontmatter.background_artist && <a className="coverArtist" href={post.frontmatter.background_artist} target="_blank">cover image artist</a>}
           <div className="tooltipcontainer">
             <img
               onClick={copyToClipboard}

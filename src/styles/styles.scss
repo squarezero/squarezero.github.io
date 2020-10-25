@@ -57,6 +57,10 @@ h3 {
     }
 }
 
+em {
+    font-weight: 700;
+}
+
 .date {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
@@ -115,6 +119,7 @@ h3 {
     white-space: break-spaces;
     background-color: inherit;
     font-size: 24px;
+    margin-bottom: 300px;
     @media (max-width: 767px) {
         font-size: 20px;
         margin-top: 150px;
