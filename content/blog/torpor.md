@@ -25,14 +25,14 @@ A day of sitting and I'm back to square zero.
 
 # The case for discipline.
 Sometimes I feel like I should be kidnapped, kept under duress till I lose all my addictions and body fat.
-Sometimes, I feel like I should join a army kinda program where I have no choice but behave.
+Sometimes, I feel like I should join an army kinda program where I have no choice but behave.
 But then, I've realised that it won't solve the problem. What I'm missing is exactly what I want to avoid dealing with: discipline.
 The restraint, and fortitude are exactly what I lack. That's the core I talk about.
 Also culpable is the lack of consequences; my parents have simply given up on me, or they have their own things to worry about, or they love me too much; this is no one else's responsibility but mine. They always care for me, never blamed me for anything; I gotta make things right. 
 Another insidious factor is the lack of clear headedness to see what I've lost. I lost a career, a whole life on the other side of the globe, and I never think about it except during moments like this. Self preservation can do that, make you crave more of the ugly fruits, while turning your head away from the acres of fields you are burning down.
 
 # It's a lifestyle thing.
-It's not about one single aspect, that needs to be fixed.
+It's not one single aspect, that needs to be fixed.
 It's not a one week thing. 
 It's an entire way of life. 
 Oh my, what great things I can achieve if I actually put an appreciable effort into this.
