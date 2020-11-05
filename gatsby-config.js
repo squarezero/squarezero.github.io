@@ -7,6 +7,7 @@ module.exports = {
     },
     description: `Silent Observations`,
     siteUrl: `https://squarezero.github.io`,
+    image: `content/assets/background.jpg`,
     social: {
       email: `sssurajsuraj@gmail.com`,
     },
@@ -104,9 +105,10 @@ module.exports = {
           },
         ],
       },
-    }
+    },
+    `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }

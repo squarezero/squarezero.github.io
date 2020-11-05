@@ -3,12 +3,11 @@ import { Link } from "gatsby"
 import sqzDim from '../../content/assets/sqzDim.png'
 import APP_BACKGROUND from '../../content/assets/background.jpg';
 
-import { rhythm, scale } from "../utils/typography"
+import { rhythm } from "../utils/typography"
 import '../styles/styles.scss';
 
 const Layout = (props) => {
-  const { location, title, children, backgroundImage } = props;
-  const rootPath = `${__PATH_PREFIX__}/`;
+  const { title, children, backgroundImage } = props;
   const categories = ['home', 'blog', 'poetry', 'fiction', 'reviews'];
   const header = (
     <h1><Link style={{ color:`inherit` }} to={`/`}>{title}</Link></h1>
@@ -58,7 +57,7 @@ const Layout = (props) => {
     <>
     <div className="sidebarContainer">
       <div className="hamburger" onClick={goHome} title="Home">
-        <img className="logo" src={sqzDim} />
+        <img className="logo" src={sqzDim} alt="logo" />
       </div>
       {
         !props.type &&

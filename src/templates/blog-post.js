@@ -41,6 +41,7 @@ const BlogPostTemplate = ({ data, location }) => {
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.subtitle || post.excerpt}
+        ogImage={post.frontmatter.background}
       />
       <article className="article">
         <div className={`content blogPost ${post.frontmatter.category === 'poetry' ? 'fitContent' : ''}`}
@@ -95,6 +96,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        image
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {

@@ -55,7 +55,11 @@ const BlogIndex = ({ data, location }) => {
       updateActiveCategory={updateActiveCategory}
       finishCardInfo={finishCardInfo}
     >
-      <SEO title="Home" />
+      <SEO
+        title={data.site.siteMetadata.title}
+        description={data.site.siteMetadata.description}
+        ogImage={data.site.siteMetadata.image}
+      />
       {
         !posts.length &&
         <div className="noContent">
@@ -109,6 +113,11 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        description
+        image
+        social {
+          email
+        }
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
