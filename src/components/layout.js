@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 import { Link } from "gatsby"
-import sqzDim from '../../content/assets/sqzDim.png'
+import sqzBright from '../../content/assets/sqzBright.png'
 import APP_BACKGROUND from '../../content/assets/background.jpg';
 
 import { rhythm } from "../utils/typography"
@@ -57,7 +57,7 @@ const Layout = (props) => {
     <>
     <div className="sidebarContainer">
       <div className="hamburger" onClick={goHome} title="Home">
-        <img className="logo" src={sqzDim} alt="logo" />
+        <img className="logo" src={sqzBright} alt="logo" />
       </div>
       {
         !props.type &&
@@ -74,6 +74,9 @@ const Layout = (props) => {
             </div>
           ))
         }
+        <Link to="/about"
+          className="category"
+        >About</Link>
       </div>
       }
     </div>

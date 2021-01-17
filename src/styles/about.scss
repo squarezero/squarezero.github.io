@@ -1,0 +1,29 @@
+.aboutContainer {
+    .aboutLogoContainer {
+        position: relative;
+        display: flex;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+        .aboutLogo {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            left: calc(50% - 100px);
+            opacity: 0;
+            transition: opacity 3s ease-in-out;
+            &.active {
+                opacity: 1;
+            }
+        }
+        #dimLogo {
+            opacity: 1;
+        }
+    }
+    .aboutTitle {
+
+    }
+    .aboutDescription {
+
+    }
+}
