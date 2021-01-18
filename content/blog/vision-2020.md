@@ -16,7 +16,7 @@ So... Let's make plans for that? It also aligns perfectly for a 5 year plan, and
 Before taking such drastic steps, let's look back at how our initiatives have worked out so far.
 2020's almost gone now; how have I fared? 
 
-# nonutnovember
+# nnn
 10 days of perfection. That's all I could manage.
 Also, I've realised that the nut problem is a consequence as much as a cause. The main problem is autopilot.
 I got to get the withdrawal out of my system; otherwise I'm doomed, no doubt about it. I can't yield; it just puts me back at you know what.
