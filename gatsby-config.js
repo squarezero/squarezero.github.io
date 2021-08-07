@@ -80,30 +80,12 @@ module.exports = {
     },
 
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Source Sans Pro`,
-            variants: [`300`, `400`],
-          },
-          {
-            family: `Alegreya Sans`,
-            variants: [`400`]
-          },
-          {
-            family: `Poppins`,
-            variants: [`800`]
-          },
-          {
-            family: `Playfair Display`,
-            variants: [`900`]
-          },
-          {
-            family: `Raleway`,
-            variants: [`300`]
-          },
+          `Source Sans Pro\:300,400`, `Alegreya Sans\:400`, `Poppins\:800`, `Playfair Display\:900`, `Raleway\:300`
         ],
+        display: 'swap',
       },
     },
     `gatsby-plugin-sitemap`,
