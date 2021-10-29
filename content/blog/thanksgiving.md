@@ -1,8 +1,8 @@
 ---
 title: The best Thanksgiving
-background: https://cdna.artstation.com/p/assets/images/images/026/325/512/large/daniel-sia-doomcan.jpg
+background: https://cdnb.artstation.com/p/assets/images/images/013/325/755/large/raphaelle-deslandes-dpeyp8yu4aakizg-jpg-large.jpg
 category: blog
-background_artist: https://www.artstation.com/sia
+background_artist: https://www.artstation.com/raphaelledeslandes
 subtitle: Circa nov 2016
 date: 2021-10-30
 ---
