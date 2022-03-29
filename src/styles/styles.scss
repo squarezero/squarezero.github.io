@@ -41,19 +41,19 @@ h1 {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 4.8px;
-    font-size: 30px;
+    font-size: 20px;
     @media (max-width: 767px) {
-        font-size: 22px;       
+        font-size: 18px;       
     }
 }
 
 h3 {
     font-family: 'Playfair Display', serif;
     font-weight: 900;
-    font-size: 45px;
+    font-size: 35px;
     letter-spacing: 0px;
     @media (max-width: 767px) {
-        font-size: 30px;
+        font-size: 22px;
     }
 }
 
@@ -118,7 +118,7 @@ em {
     position: relative;
     white-space: break-spaces;
     background-color: inherit;
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 300px;
     @media (max-width: 767px) {
         font-size: 20px;

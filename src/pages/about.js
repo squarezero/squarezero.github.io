@@ -36,8 +36,7 @@ const AboutPage = ({ data, location }) => {
           <img className="aboutLogo" id="brightLogo" src={BrightLogo} />
           <img className="aboutLogo" id="dimLogo" src={DimLogo} />
         </div>
-        <p className="aboutTitle">About</p>
-        <p className="aboutDescription">Description ...</p>
+        <p className="aboutTitle">This is an absolutely static page.</p>
       </div>
     </Layout>
   )

@@ -59,26 +59,6 @@ const Layout = (props) => {
       <div className="hamburger" onClick={goHome} title="Home">
         <img className="logo" src={sqzBright} alt="logo" />
       </div>
-      {
-        !props.type &&
-        <div className="categories">
-        {
-          categories.map((item, index) => (
-            <div
-              key={index}
-              className="category"
-              onClick={()=>props.updateActiveCategory(item, props.type)}
-            >
-              <div className="text">{item}</div>
-              <div className="overlay"></div>
-            </div>
-          ))
-        }
-        <Link to="/about"
-          className="category"
-        >About</Link>
-      </div>
-      }
     </div>
     <div
       id="opacityContainer"

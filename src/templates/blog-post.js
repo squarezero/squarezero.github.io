@@ -28,7 +28,7 @@ const BlogPostTemplate = ({ data, location }) => {
   }
 
   function goHome() {
-    window.history.back();
+    window.location = '/' 
   }
 
   return (
