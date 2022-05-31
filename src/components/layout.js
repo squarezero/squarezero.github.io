@@ -84,6 +84,7 @@ const Layout = (props) => {
         onLoad={onload}
       />
     </div>
+    <a className="aboutLink" href="https://surajk95.github.io/" target="_blank">about</a>
     </>
   )
 }

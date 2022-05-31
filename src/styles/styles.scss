@@ -76,6 +76,15 @@ em {
     color: red;
 }
 
+.aboutLink {
+    position: fixed;
+    bottom: 15px;
+    left: -8px;
+    transform: rotate(-90deg);
+    z-index: 9;
+    font-size: 15px;
+}
+
 .backgroundImage {
     position: fixed;
     left: 0;
