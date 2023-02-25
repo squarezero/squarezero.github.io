@@ -16,7 +16,7 @@ const Layout = (props) => {
     return () => {
       document.querySelector('.sq').removeEventListener('scroll', scrollListener)
     }
-  }, [props.type]);
+  }, []);
 
   function scrollListener(e) {
     const target = e.target
@@ -49,11 +49,7 @@ const Layout = (props) => {
       </div>
     </div>
     <div
-      id=""
       className="balladLayout"
-      style={{
-        // position: 'relative'
-      }}
     >
       <header className="pageHeader" title="Silent Observations">{header}</header>
       <main>{children}</main>

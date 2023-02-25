@@ -17,14 +17,15 @@
     justify-content: center;
     align-items: center;
 }
-.pageHeader {
+.balladLayout .pageHeader {
   background: none;
 }
-.backButton {
+.balladLayout .backButton {
   top: 100px;
   left: 100px;
+  background: none;
 }
-.articleMeta {
+.balladLayout .articleMeta {
   top: 100px;
 }
 .sq {
@@ -66,34 +67,25 @@
 scrollbar-width: none;  /* Firefox */
 }
 
-.title {
-    position: fixed;
-    left: 0px;
-    top: 15px;
-    width: 100%;
-    text-align: center;
-    z-index: 1;
-    font-size: 20px;
-    font-family: 'Alegreya Sans';
-    text-transform: uppercase;
-    color: red;
-    font-weight: 500;
-    letter-spacing: 4.8px;
-}
-.logo {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    z-index: 1; 
-    width: 100px;
-    height: 100px;
 
+@media (max-width: 767px) {
+  .balladLayout {
+    background-position-x: center;
+  }
+  .sq {
+    font-size: 25px;
+    width: calc(100% + 80px);
+    padding: 250px 100px 600px;
+    background: rgba(126, 0, 255, 0.5);
+  }
+  .balladLayout .backButton {
+    left: 10px;
+    top: 80px;
+  }
+  .balladLayout .articleMeta {
+    top: 80px;
+  }
 }
-
-.bgtext {
-    transform: rotate3d(-15, 25, 0, 30deg) scale(1);
-}
-
 
 
 
