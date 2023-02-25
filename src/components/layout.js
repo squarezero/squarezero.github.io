@@ -13,36 +13,6 @@ const Layout = (props) => {
     <h1><Link style={{ color:`inherit` }} to={`/`}>{title}</Link></h1>
   );
 
-  useEffect(() => {
-    if(props.type) {
-      addScrollListener();
-    }
-    return () => {
-      removeScrollListener();
-    }
-  }, [props.type]);
-
-  const addScrollListener = () => {
-    document.addEventListener('scroll', scrollFunction);
-  }
-
-  const removeScrollListener = () => {
-    document.removeEventListener('scroll', scrollFunction);
-    const el = document.querySelector('.backgroundImage');
-    if(!el)
-      return;
-    el.classList.remove('blurUp');
-  }
-
-  const scrollFunction = () => {
-    const el = document.querySelector('.backgroundImage');
-    if(!el)
-      return;
-    if(!el.classList.contains('blurUp'))
-      el.classList.add('blurUp');
-    setTimeout(()=>el.classList.remove('blurUp'), 300);
-  }
-
   const onload = () => {
     if(props.finishCardInfo)
       props.finishCardInfo();

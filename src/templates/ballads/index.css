@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore');
+
+.balladLayout {
+    position: fixed;
+    left: 0;
+    top: 0px;
+    margin: 0 !important;
+    background: black;
+    color: white;
+    background: url('./ballads.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pageHeader {
+  background: none;
+}
+.backButton {
+  top: 100px;
+  left: 100px;
+}
+.articleMeta {
+  top: 100px;
+}
+.sq {
+    perspective: 1000px;
+    transform: rotate(-10deg);
+    position: relative;
+    width: 100%;
+    height: calc(100vh + 400px);
+    overflow-y: scroll;
+    margin: auto;
+    margin-top: 100px;
+    padding: 150px 50px 600px 100px;
+    line-height: 1.7;
+    letter-spacing: 0px;
+    word-spacing: 10px;
+    font-size: 40px;
+    font-family: 'La Belle Aurore', sans-serif;
+    /* text-decoration: underline; */
+    white-space: pre-line;
+    /* left: 100px; */
+    mix-blend-mode: soft-light;
+    background-color: rgb(126 0 255 / 50%);
+    transition: background 2s ease-in-out;
+    /* background: linear-gradient(to bottom, rgb(255 0 0 / 50%), rgb(255 0 245 / 50%)); */
+    /* change background color by scroll, (or make it gradient?). */
+}
+.text {
+  transform: rotate(4deg);
+  padding-bottom: 600px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.sq::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.sq {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+.title {
+    position: fixed;
+    left: 0px;
+    top: 15px;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    font-size: 20px;
+    font-family: 'Alegreya Sans';
+    text-transform: uppercase;
+    color: red;
+    font-weight: 500;
+    letter-spacing: 4.8px;
+}
+.logo {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 1; 
+    width: 100px;
+    height: 100px;
+
+}
+
+.bgtext {
+    transform: rotate3d(-15, 25, 0, 30deg) scale(1);
+}
+
+
+
+
+.gradient-blur {
+    position: fixed;
+    z-index: 5;
+    inset: auto 0 0 0;
+    height: 30%;
+    pointer-events: none;
+  }
+  .gradient-blur > div,
+  .gradient-blur::before,
+  .gradient-blur::after {
+    position: absolute;
+    inset: 0;
+  }
+  .gradient-blur::before {
+    content: "";
+    z-index: 1;
+    backdrop-filter: blur(0.5px);
+    -webkit-mask-box-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 12.5%,
+      rgba(0, 0, 0, 1) 25%,
+      rgba(0, 0, 0, 0) 37.5%
+    );
+  }
+  .gradient-blur > div:nth-of-type(1) {
+    z-index: 2;
+    backdrop-filter: blur(1px);
+    -webkit-mask-box-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 12.5%,
+      rgba(0, 0, 0, 1) 25%,
+      rgba(0, 0, 0, 1) 37.5%,
+      rgba(0, 0, 0, 0) 50%
+    );
+  }
+  .gradient-blur > div:nth-of-type(2) {
+    z-index: 3;
+    backdrop-filter: blur(2px);
+    -webkit-mask-box-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 25%,
+      rgba(0, 0, 0, 1) 37.5%,
+      rgba(0, 0, 0, 1) 50%,
+      rgba(0, 0, 0, 0) 62.5%
+    );
+  }
+  .gradient-blur > div:nth-of-type(3) {
+    z-index: 4;
+    backdrop-filter: blur(4px);
+    -webkit-mask-box-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 37.5%,
+      rgba(0, 0, 0, 1) 50%,
+      rgba(0, 0, 0, 1) 62.5%,
+      rgba(0, 0, 0, 0) 75%
+    );
+  }
+  .gradient-blur > div:nth-of-type(4) {
+    z-index: 5;
+    backdrop-filter: blur(8px);
+    -webkit-mask-box-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 1) 62.5%,
+      rgba(0, 0, 0, 1) 75%,
+      rgba(0, 0, 0, 0) 87.5%
+    );
+  }
+  .gradient-blur > div:nth-of-type(5) {
+    z-index: 6;
+    backdrop-filter: blur(16px);
+    -webkit-mask-box-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 62.5%,
+      rgba(0, 0, 0, 1) 75%,
+      rgba(0, 0, 0, 1) 87.5%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+  .gradient-blur > div:nth-of-type(6) {
+    z-index: 7;
+    backdrop-filter: blur(32px);
+    -webkit-mask-box-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 75%,
+      rgba(0, 0, 0, 1) 87.5%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+  .gradient-blur::after {
+    content: "";
+    z-index: 8;
+    backdrop-filter: blur(64px);
+    -webkit-mask-box-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 87.5%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }

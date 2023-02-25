@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
+import LayoutBallad from '../components/layout-ballad'
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 import ShareIcon from '../../content/assets/share.svg';
@@ -31,12 +32,74 @@ const BlogPostTemplate = ({ data, location }) => {
     window.location = '/' 
   }
 
+  if(post.frontmatter.category === 'ballad') {
+    return (
+      <>
+        <LayoutBallad 
+          location={location}
+          title={post.frontmatter.title}
+          backgroundImage={post.frontmatter.background}
+          type="post"
+          category={post.frontmatter.category}
+        >
+          <SEO
+            title={post.frontmatter.title}
+            description={post.frontmatter.subtitle || post.excerpt}
+            ogImage={post.frontmatter.background}
+          />
+          <article className="article sq">
+            <div className={`content blogPost`}
+              style={{
+                position: 'relative',
+                marginLeft: `auto`,
+                marginRight: `auto`,
+                marginTop: '50px',
+              }}>
+              <header>
+              </header>
+              <section dangerouslySetInnerHTML={{ __html: post.html }} />
+              <footer>
+              </footer>
+            </div>
+          </article>
+          <div className="backButton" onClick={goHome} title="Back">
+            <img
+              className="backIcon"
+              src={BackIcon}
+              alt="Back"
+            />
+          </div>
+          <div className="articleMeta">
+            <div className={`date articleDate`}>
+              {post.frontmatter.date}
+            </div>
+            <h3 className="metaSubtitle">
+              {post.frontmatter.subtitle || post.frontmatter.category}
+            </h3>
+            {post.frontmatter.background_artist && <a className="coverArtist" href={post.frontmatter.background_artist} target="_blank">cover image artist</a>}
+            <div className="tooltipcontainer">
+              <img
+                onClick={copyToClipboard}
+                onMouseOut={outFunc}
+                className="shareIcon"
+                src={ShareIcon}
+                alt="Share"
+              />
+              <span id="tooltiptext" className="tooltiptext">Copy Link</span>
+            </div>
+          </div>
+        </LayoutBallad>
+      </>
+    )
+  }
+
   return (
     <Layout
       location={location}
       title={post.frontmatter.title}
       backgroundImage={post.frontmatter.background}
       type="post"
+      category={post.frontmatter.category}
     >
       <SEO
         title={post.frontmatter.title}
