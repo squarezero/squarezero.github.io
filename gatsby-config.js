@@ -83,7 +83,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Source Sans Pro\:300,400`, `Alegreya Sans\:400`, `Poppins\:800`, `Playfair Display\:900`, `Raleway\:300`
+          `Source Sans Pro\:300,400`, `Alegreya Sans\:400`, `Poppins\:800`, `Playfair Display\:900`, `Raleway\:300`, `La Belle Aurore\:400`
         ],
         display: 'swap',
       },
