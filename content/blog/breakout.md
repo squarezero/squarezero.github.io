@@ -1,0 +1,26 @@
+---
+title: Breakout
+category: fiction
+background: https://cdna.artstation.com/p/assets/images/images/014/439/594/large/steven-cormann-02.jpg?1543969439
+subtitle: The future is bleak
+background_artist: https://www.artstation.com/stevencormann
+date: 2023-06-01
+---
+
+# 10 minutes to ETA
+Walter says. He knows every road that ends in an entrance to the containment zone. Presentl,y we're going to a legal one, since I need to enter officially, although the pretense is different. I really need to get my father operated in an actual hospital. I'm going in to get money from a loan shark that Walter said he knew. It's life or death quite literally and imminent at this time, unlike the outside world, where you may get away if you play your cards right. 
+
+# 5 minutes to ETA
+Walter says.
+Walter is an interesting guy. He used to be a cook and a mechanic when the world was still normal. We connected through my father and took off immediately .He is very intelligent and resourceful, which is why he's made it this far. Escaping the war, the outbreak, and the government. Doesn't trust any form of propaganda, which is why I was surprised when he introduced me to his little friend Jesse. Jesse is a little box sitting on top of Walter's dashboard in his rickety old car. He tells me he's a decommissioned old AI chip in a box without any network, and Walter tells me he's checked it and it's safe. Turns out Walter isn't that paranoid after all .
+
+We reach the check post and the guards check our fake papers to see if they're legit. Walter knew the guard and the guard knew Jesse as well, and says hi to him. He fake checks our papers and it tells us we're all good; he points us in the direction of the correct lane. But as we are about to take off to the inside zone, we're surrounded by guards, and I black out when someone hits me at the back of my head with a fucking gun.
+
+# 3 years later
+We're working day and night, making shifts, juggling all the family members to earn eddies, so that our father can get treated. But we're not so sure anymore if the treatment is working. Actually, we don't even know if he's still alive. We might be reaching the tipping point really soon and I don't know what I do if I realize something's off.
+
+# 4 months later
+The helicopter is taking us on a schedulde trip to the market, so we can get our provisions for the next year. We all knew the plan. This was a night shift and our best way at escape. The chopper whirls around the market, and circles down for a good minute while we prepare mentally for the chaos that's going to break, or the lives that are going to be lost. We land and soon we disappear into the crowd and the guards begin to chase. We know they won't kill us, because they're running out of labor pretty fast. The AI won't get us outside the containment zone. I'm making the fastest run I can, hoping that the others make it as well.
+After what felt like the whole night I see signs of dawn as I reach an abandoned building at the perimeter of the zone. I hear scores of vehicles and guards searching for me. I think they want to kill me now. Just as I start to cower and zone out, I see a fence which looks pretty breachable with some effort. At this moment I'm imbibed with a surge of strange confidence and I start rambling on
+"better to be free and die than live and serve"
+as I cut opened the last link of the fence.
