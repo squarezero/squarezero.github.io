@@ -1,5 +1,6 @@
 name: Rebuild site
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+run-name: ${{ github.actor }} is deploying...
+# if file not solved errors happen, run this after renaming those files: git rm -r --cached . && git add --all .
 on: 
   push:
     branches: [ source ]
