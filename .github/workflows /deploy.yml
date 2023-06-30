@@ -1,0 +1,19 @@
+name: GitHub Actions Demo
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: 
+  push:
+    branches: [ source ]
+jobs:
+  Rebuild-site:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v3
+        - name: Use Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: '16.x'
+        - name: Install dependencies
+          run: npm ci --legacy-peer-deps
+        - name: Deploy
+          run: npm run deploy
+  
