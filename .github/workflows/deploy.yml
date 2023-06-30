@@ -1,4 +1,4 @@
-name: GitHub Actions Demo
+name: Rebuild site
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: 
   push:
@@ -7,6 +7,9 @@ jobs:
   Rebuild-site:
       runs-on: ubuntu-latest
       steps:
+        - run: |
+                git config --global user.email "surajkukati95@gmail.com"
+                git config --global user.name "surajk95"
         - uses: actions/checkout@v3
         - name: Use Node.js
           uses: actions/setup-node@v3
