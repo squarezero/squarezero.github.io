@@ -17,7 +17,7 @@ const AboutPage = ({ data, location }) => {
 
   const startAnimation = (flag) => {
     const brightLogo = document.querySelector("#brightLogo");
-    if(flag) {
+    if (flag) {
       brightLogo && brightLogo.classList.remove("active");
     }
     else {
@@ -33,8 +33,8 @@ const AboutPage = ({ data, location }) => {
       <SEO title="About Square Zero" />
       <div className="aboutContainer">
         <div className="aboutLogoContainer">
-          <img className="aboutLogo" id="brightLogo" src={BrightLogo} />
-          <img className="aboutLogo" id="dimLogo" src={DimLogo} />
+          <img className="aboutLogo" id="brightLogo" src={BrightLogo} alt="website logo" />
+          <img className="aboutLogo" id="dimLogo" src={DimLogo} alt="website logo" />
         </div>
         <p className="aboutTitle">This is an absolutely static page.</p>
       </div>
