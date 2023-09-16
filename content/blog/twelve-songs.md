@@ -37,7 +37,7 @@ Aren't you an angel?
 
 I want to write a song for you,
 I walk a million miles, but I never reach you.
-I heary our voice, and you're right here.
+I hear our voice, and you're right here.
 My heart skips beats; it's all melodies.
 I'm still shy and I fumble
 To say you're mine.
@@ -71,7 +71,7 @@ And I feel your patterns permeating through my cells.
 
 I want to write a song for you,
 We dance and drink to health.
-I will sell my sould for your smiles.
+I will sell my soul for your smiles.
 Why do I float and fly
 When you're happy and high?
 
