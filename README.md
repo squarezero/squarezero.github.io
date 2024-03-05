@@ -1,3 +1,4 @@
+## I'm archiving this repository. I have switched to Nextjs + Contentlayer for blogging: [link](https://squarezero.vercel.app/)
 # [Square Zero - Dark and Elegant Blog](https://squarezero.github.io/)
 
 ## [Based off Start Bootstrap - Clean Blog](https://startbootstrap.com/template-overviews/clean-blog/) - Official Jekyll Version
